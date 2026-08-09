@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-canvas: #0b0f19;
+  --bg-surface: #111827;
+  --bg-surface-elevated: #172033;
+  --bg-surface-muted: #0f1522;
+  --border-subtle: rgba(148, 163, 184, 0.16);
+  --border-strong: rgba(212, 175, 55, 0.42);
+  --brand-gold: #d4af37;
+  --brand-gold-hover: #f3e5ab;
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #f87171;
+}
+
+* {
+  border-color: var(--border-subtle);
+}
+
+html {
+  background: var(--bg-canvas);
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-inter), var(--font-noto-bengali), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.28);
+  color: var(--text-primary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-gold);
+  outline-offset: 3px;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .crown-section {
+    @apply py-16 sm:py-20 lg:py-28;
+  }
+
+  .crown-section-sm {
+    @apply py-12 sm:py-16;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-crown-brand;
+  }
+
+  .display-xl {
+    @apply font-serif text-4xl font-semibold leading-[1.05] tracking-[-0.03em] sm:text-6xl lg:text-7xl;
+  }
+
+  .heading-xl {
+    @apply font-serif text-3xl font-semibold leading-tight sm:text-4xl;
+  }
+
+  .heading-lg {
+    @apply font-serif text-2xl font-semibold leading-tight;
+  }
+
+  .button-primary,
+  .button-secondary {
+    display: inline-flex;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.75rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+  }
+
+  .button-primary {
+    background: var(--brand-gold);
+    color: var(--bg-canvas);
+    font-weight: 700;
+  }
+
+  .button-primary:hover {
+    background: var(--brand-gold-hover);
+  }
+
+  .button-secondary {
+    border: 1px solid var(--border-strong);
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  .button-secondary:hover {
+    border-color: var(--brand-gold);
+    background: var(--bg-surface-elevated);
+  }
+
+  .button-primary:active,
+  .button-secondary:active {
+    transform: scale(0.98);
+  }
+}
+
+.crown-hero-glow {
+  background: radial-gradient(circle at 75% 35%, rgba(212, 175, 55, 0.14), transparent 30%), radial-gradient(circle at 15% 70%, rgba(64, 87, 130, 0.18), transparent 32%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f3e5ab 0%, #d4af37 52%, #c5a059 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold-glow {
+  border-color: var(--border-strong);
+  box-shadow: 0 0 24px rgba(212, 175, 55, 0.12);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-gold);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
