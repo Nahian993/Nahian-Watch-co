@@ -1,0 +1,42 @@
+{
+  "name": "crown-watch-co",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node tests/run-all.js",
+    "test:tier1": "node tests/run-all.js --tier=1",
+    "test:tier2": "node tests/run-all.js --tier=2",
+    "test:tier3": "node tests/run-all.js --tier=3",
+    "test:tier4": "node tests/run-all.js --tier=4",
+    "test:verbose": "node tests/run-all.js --verbose",
+    "test:bail": "node tests/run-all.js --bail",
+    "test:json": "node tests/run-all.js --json"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.9.3"
+  }
+}

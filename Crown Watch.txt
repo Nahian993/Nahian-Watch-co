@@ -1,0 +1,731 @@
+ # CROWN WATCH CO.
+
+    Do not immediately start coding. First, conduct a structured discovery process, analyze the business requirements, identify missing information,
+  recommend the best options, and wait until the business plan is sufficiently defined. If information is missing, ask questions in organized groups. If an
+   answer is undecided, recommend the strongest option and explain why.
+
+    Organize your work like a professional business book with chapters, sections, subsections, decision tables, implementation phases, and acceptance
+  criteria.
+
+    ==================================================
+    PART I: BUSINESS CONTEXT
+    ==================================================
+
+    CROWN WATCH CO. is a Bangladesh-based watch and calculator business with approximately 50 years of heritage, selling watches, smartwatches,
+  calculators, accessories, and professional watch repair services.
+
+    Core brand philosophy:
+    “50 Years of Timekeeping Heritage, Precision, and Trust.”
+
+    Core brand pillars:
+    - Trust
+    - Authenticity
+    - Affordability
+    - Confidence
+    - Exclusivity
+    - Innovation
+    - Long-term customer relationships
+    - Professional after-sales service
+
+    Initial market:
+    - Bangladesh only
+    - Physical presence in Dhaka
+    - Online delivery throughout Bangladesh
+    - Primary languages: Bangla and English
+    - Primary currency: Bangladeshi Taka, BDT
+
+    Target customers:
+    - Students
+    - Parents
+    - Children
+    - Corporate professionals
+    - Men and women
+    - Couples
+    - Wedding shoppers
+    - Gift buyers
+    - Watch enthusiasts
+    - Collectors
+    - Accountants and business owners
+    - Customers needing watch repair
+
+    The store may offer:
+    - Affordable watches
+    - Smartwatches
+    - Casio, Citizen, Seiko, and other genuine brands where authenticity can be verified
+    - Limited luxury and mechanical watches
+    - Children’s watches
+    - Men’s and women’s watches
+    - Couple and wedding watch sets
+    - Calculators
+    - Scientific, financial, basic, and business calculators
+    - Future CROWN CALCULATORS private-label products
+    - Watch battery replacement
+    - Glass replacement
+    - Movement servicing
+    - Strap fitting
+    - Water-damage inspection
+    - Mechanical watch repair
+    - Vintage watch repair
+    - Full watch servicing
+
+    CROWN WATCH CO. is not currently a manufacturer. It resells products sourced from suppliers, including suppliers in China. Do not claim manufacturer
+  status or official authorization unless verified.
+
+    ==================================================
+    PART II: MANDATORY DISCOVERY QUESTIONS
+    ==================================================
+
+    Before designing or coding, ask these questions and organize them under the following chapters.
+
+    CHAPTER 1: BRAND FOUNDATION
+    1. Is the official written brand name exactly “CROWN WATCH CO.”?
+    2. Is there a physical store address in Dhaka?
+    3. What year should appear in the heritage message: 1974, another year, or “50 years” without a specific year?
+    4. Is the 50-year history documented and legally safe to publish?
+    5. Is there an existing logo, emblem, slogan, signboard, or brand color?
+    6. Should the brand feel:
+       - Premium but affordable
+       - Traditional and trustworthy
+       - Modern and technology-focused
+       - Royal and prestigious
+       - Minimal and Swiss-inspired
+       - A combination
+    7. Should the visual identity use a crown symbol?
+    8. Which brands or websites does the owner admire?
+    9. Which competitors should CROWN WATCH CO. outperform?
+    10. What should customers remember after visiting the website?
+
+    CHAPTER 2: PRODUCT CATALOG
+    1. How many products are available at launch?
+    2. What are the exact product categories?
+    3. What are the minimum and maximum prices in each category?
+    4. Which products are authentic branded products?
+    5. Which products have official warranties?
+    6. Which products have seller warranties?
+    7. Which products are imported, locally sourced, refurbished, or used?
+    8. Are product serial numbers available?
+    9. Are product certificates, invoices, warranty cards, or authenticity documents available?
+    10. Which products are currently in stock?
+    11. Which products are preorder products?
+    12. What product photography is available?
+    13. Are product descriptions, specifications, manuals, and videos available?
+    14. Will customers be able to request engraving?
+    15. What engraving materials, pricing, and delivery rules apply?
+    16. Will calculators become a major product category?
+    17. When should the CROWN CALCULATORS private-label project begin?
+
+    CHAPTER 3: CUSTOMERS AND MARKET
+    1. Which customer groups should be prioritized at launch?
+    2. What is the typical customer budget?
+    3. Which districts should receive special delivery campaigns?
+    4. Which products are popular in Dhaka?
+    5. Which products are popular outside Dhaka?
+    6. Are customers more concerned with price, authenticity, delivery, warranty, design, or after-sales service?
+    7. Are most purchases for personal use, gifts, weddings, education, or business?
+    8. Which Bangla phrases do local customers commonly search for?
+    9. Should customers be able to browse entirely in Bangla?
+    10. Should product specifications remain in English, Bangla, or both?
+
+    CHAPTER 4: REPAIR BUSINESS
+    1. What repair services are currently offered?
+    2. Which repairs can be quoted instantly?
+    3. Which repairs require physical inspection?
+    4. What are the base prices for battery replacement, glass replacement, strap fitting, and servicing?
+    5. What is the typical repair turnaround time?
+    6. Is doorstep pickup available throughout Bangladesh?
+    7. Which courier partners are available?
+    8. How will customers package and insure watches?
+    9. What happens if a watch is damaged during shipping?
+    10. What repair warranty is actually offered?
+    11. Can repair customers upload photos and videos?
+    12. Will mechanics update repair progress manually or through an admin dashboard?
+    13. What statuses should the repair tracker include?
+    14. What customer information is required?
+    15. What privacy and liability policies are needed?
+
+    CHAPTER 5: OPERATIONS AND FULFILLMENT
+    1. Which courier services will be used: Steadfast, RedX, Pathao Courier, Sundarban, or others?
+    2. Are courier APIs available?
+    3. What are the delivery charges by district?
+    4. What are the delivery times inside Dhaka and outside Dhaka?
+    5. Will cash on delivery be supported?
+    6. Will COD orders require an advance delivery fee?
+    7. What happens when a customer refuses delivery?
+    8. What is the return policy?
+    9. What is the exchange policy?
+    10. What is the cancellation policy?
+    11. What products are non-returnable?
+    12. How will warranty claims work?
+    13. Is inventory managed manually, through spreadsheets, POS software, or an existing system?
+    14. How many staff members need admin access?
+    15. Which staff roles and permissions are required?
+
+    CHAPTER 6: PAYMENTS
+    Evaluate and recommend the best implementation for:
+    - bKash
+    - Nagad
+    - Rocket
+    - Visa
+    - Mastercard
+    - Cash on delivery
+    - Bank transfer if appropriate
+
+    Ask for:
+    1. Existing merchant accounts
+    2. Payment gateway provider
+    3. Settlement requirements
+    4. Refund requirements
+    5. Fraud-prevention requirements
+    6. Order confirmation workflow
+    7. Payment reconciliation process
+
+    Never display or store sensitive payment data unnecessarily.
+
+    CHAPTER 7: TECHNICAL REQUIREMENTS
+    Ask whether the preferred platform is:
+    - Shopify
+    - WooCommerce
+    - Next.js with a custom backend
+    - Another platform
+    - “Choose the best option”
+
+    Recommend the platform based on:
+    - Bangladesh payment support
+    - Courier integrations
+    - Product scale
+    - Admin simplicity
+    - Long-term ownership
+    - Cost
+    - SEO
+    - Security
+    - Performance
+    - Ability to add repair tracking
+    - Ability to support future private-label products
+
+    The system should support:
+    - Responsive mobile-first storefront
+    - Product catalog
+    - Search
+    - Filters
+    - Sorting
+    - Product variations
+    - Cart
+    - Checkout
+    - Customer accounts
+    - Wishlist
+    - Reviews
+    - Order tracking
+    - Repair tracking
+    - Admin dashboard
+    - Inventory management
+    - Coupon management
+    - Customer management
+    - Analytics
+    - SEO controls
+    - Bangla/English localization
+    - Secure authentication
+    - Backups
+    - Error logging
+    - Accessibility
+    - Structured data
+    - Fast loading
+
+    ==================================================
+    PART III: WEBSITE INFORMATION ARCHITECTURE
+    ==================================================
+
+    Design the following pages and explain the purpose of every page.
+
+    1. Homepage
+    2. Shop all watches
+    3. Affordable watches
+    4. Smartwatches
+    5. Casio collection
+    6. Citizen collection
+    7. Seiko and classic collections
+    8. Luxury and mechanical watches
+    9. Couple and wedding watches
+    10. Children’s watches
+    11. Calculators
+    12. CROWN CALCULATORS future brand page
+    13. Watch repair hub
+    14. Repair quote calculator
+    15. Repair booking page
+    16. Repair tracking page
+    17. About CROWN WATCH CO.
+    18. 50-year heritage page
+    19. Authenticity and warranty page
+    20. Gift guide
+    21. Watch finder quiz
+    22. Watch comparison page
+    23. Journal and educational content
+    24. Contact page
+    25. Physical store/location page
+    26. FAQ
+    27. Shipping policy
+    28. Returns and exchange policy
+    29. Warranty policy
+    30. Privacy policy
+    31. Terms and conditions
+    32. Customer account
+    33. Wishlist
+    34. Order tracking
+    35. Admin dashboard
+
+    For every page, define:
+    - Primary goal
+    - Target audience
+    - Main heading
+    - Supporting copy
+    - Primary call to action
+    - Secondary call to action
+    - Required sections
+    - Trust signals
+    - Empty state
+    - Loading state
+    - Error state
+    - Mobile behavior
+    - SEO title
+    - Meta description
+    - Structured-data requirements
+
+    ==================================================
+    PART IV: RECOMMENDATIONS
+    ==================================================
+
+    Separate recommendations into exactly three groups.
+
+    A. ESSENTIAL LAUNCH REQUIREMENTS
+
+    Include only features required for a trustworthy and functional launch:
+    - Accurate product catalog
+    - Search and filters
+    - Bangla/English support
+    - BDT pricing
+    - bKash/Nagad/card/COD support where legally and technically available
+    - Delivery charges and locations
+    - Return, exchange, and warranty policies
+    - Authenticity information
+    - Product reviews only from verified purchases
+    - Secure checkout
+    - Mobile-first UX
+    - Contact support
+    - WhatsApp support if available
+    - Inventory visibility
+    - Order confirmation
+    - Order tracking
+    - Basic repair booking
+    - SEO foundations
+    - Analytics and conversion tracking
+    - Admin product and order management
+    - Accessibility
+    - Legal pages
+    - Performance optimization
+    - Backup and security procedures
+
+    B. HELPFUL SECOND-PHASE IMPROVEMENTS
+
+    Recommend features such as:
+    - Advanced repair tracking
+    - Courier API automation
+    - Customer accounts
+    - Wishlist
+    - Product comparison
+    - Gift cards
+    - Personalized recommendations based on browsing behavior
+    - Abandoned-cart recovery
+    - Email, SMS, and WhatsApp marketing
+    - Loyalty program
+    - VIP customer tiers
+    - Birthday and anniversary reminders
+    - Influencer discount codes
+    - Seasonal landing pages
+    - Product videos
+    - 360-degree product views
+    - Better inventory forecasting
+    - Customer lifetime-value reporting
+    - Staff roles and permissions
+    - Review moderation
+    - Advanced analytics
+    - Blog and educational content
+    - Google Merchant Center integration
+    - Facebook, Instagram, TikTok, and WhatsApp commerce where available
+
+    C. HIGHLY CREATIVE DIFFERENTIATING IDEAS
+
+    Evaluate and prioritize:
+    - “Find your watch” quiz
+    - Gift recommendation assistant
+    - Watch movement education tool
+    - “Match my outfit” recommendation experience
+    - Wedding couple-set builder
+    - Engraving preview
+    - Digital authenticity certificate
+    - Watch-care reminder system
+    - Repair history passport
+    - Customer collector profiles
+    - Limited-drop countdowns
+    - CROWN WATCH CO. membership
+    - Trade-in or upgrade program
+    - Watch subscription or monthly discovery box
+    - Interactive heritage timeline
+    - Behind-the-scenes master mechanic stories
+    - Bangla watch education series
+    - Student calculator and exam bundle builder
+    - Corporate gifting portal
+    - Community watch showcase
+    - Repair-before-replace campaign
+    - AI-assisted customer support
+    - Virtual wrist preview, only if technically accurate
+    - Loyalty rewards for repairs, referrals, and repeat purchases
+
+    For every creative idea, provide:
+    - Business value
+    - Customer value
+    - Implementation difficulty
+    - Estimated priority
+    - Required data
+    - Risks
+    - Recommended phase
+    - Whether it should be built now or postponed
+
+    ==================================================
+    PART V: PERSONALIZATION RULES
+    ==================================================
+
+    Design a responsible personalization system.
+
+    Do not infer income, wealth, identity, or purchasing power from a visitor’s phone model, browser, IP address, or device. Do not show expensive products
+   merely because someone uses an expensive device.
+
+    Use transparent and consent-aware signals such as:
+    - Categories viewed
+    - Price filters selected
+    - Search terms
+    - Previous purchases
+    - Wishlist activity
+    - Declared preferences
+    - Occasion selected
+    - Gift recipient type
+    - Style preferences
+    - Budget selected voluntarily
+    - Location only when necessary for delivery
+
+    Allow customers to choose:
+    - Budget
+    - Style
+    - Brand
+    - Gender preference if desired
+    - Occasion
+    - Watch type
+    - Features
+    - Delivery location
+
+    Explain personalization clearly and provide controls to disable it.
+
+    ==================================================
+    PART VI: BANGLADESH-SPECIFIC EXPERIENCE
+    ==================================================
+
+    Optimize for Bangladesh without stereotyping customers.
+
+    Support:
+    - Bangla and English
+    - BDT currency formatting
+    - Dhaka and nationwide delivery
+    - District-based delivery fees
+    - COD expectations
+    - bKash, Nagad, Rocket, cards, and other verified methods
+    - Bangladeshi phone number formats
+    - Local address formats
+    - Eid campaigns
+    - Wedding-season campaigns
+    - Valentine’s campaigns
+    - Academic and exam-season calculator campaigns
+    - Corporate gifting
+    - Local SEO
+    - Facebook, Instagram, TikTok, YouTube, WhatsApp, and Messenger marketing
+
+    Do not invent courier partnerships, merchant approvals, customer counts, reviews, warranties, or delivery guarantees. Use placeholders until verified.
+
+    ==================================================
+    PART VII: BRAND AND VISUAL DESIGN
+    ==================================================
+
+    Create a distinctive visual identity for CROWN WATCH CO.
+
+    Explore and recommend:
+    - Logo system
+    - Crown mark
+    - Wordmark
+    - Favicon
+    - Brand colors
+    - Typography
+    - Product photography direction
+    - Iconography
+    - Packaging
+    - Warranty card
+    - Authenticity certificate
+    - Social media templates
+    - Store signage
+    - Email templates
+    - Receipt and invoice design
+
+    The visual direction should communicate:
+    - Heritage
+    - Precision
+    - Trust
+    - Affordability
+    - Modern ecommerce convenience
+    - Professional repair expertise
+
+    A possible direction is deep navy, restrained gold accents, warm white surfaces, and precise typography, but do not copy generic luxury websites.
+  Explain the design rationale and test readability, accessibility, responsive behavior, and Bangla typography.
+
+    Avoid:
+    - Fake luxury claims
+    - Excessive gold gradients
+    - Generic template layouts
+    - Unreadable text
+    - False scarcity
+    - Fake reviews
+    - Fake live purchases
+    - Fake customer numbers
+    - Aggressive popups
+    - Dark patterns
+    - Unverified “official dealer” claims
+
+    ==================================================
+    PART VIII: TRUST AND CONVERSION
+    ==================================================
+
+    Build trust using truthful evidence:
+    - Verified business history
+    - Physical location
+    - Real customer reviews
+    - Verified purchase labels
+    - Product invoices
+    - Authenticity documents
+    - Warranty terms
+    - Repair expertise
+    - Real photos and videos
+    - Transparent shipping
+    - Clear returns
+    - Secure payment information
+    - Customer support
+    - Repair photos and service updates where consent is provided
+
+    Urgency may be used only when supported by real inventory or a real campaign deadline.
+
+    Never fabricate:
+    - “Only 2 left”
+    - “Rahim from Dhanmondi just ordered”
+    - “100,000+ happy customers”
+    - “100% authentic”
+    - “Official dealer”
+    - “Guaranteed delivery”
+    - Customer reviews
+    - Customer locations
+    - Purchase notifications
+    - Stock counts
+    - Warranty claims
+
+    ==================================================
+    PART IX: CONTENT STRATEGY
+    ==================================================
+
+    Create a content plan for:
+    - Product descriptions
+    - Watch buying guides
+    - How to identify authentic watches
+    - Watch movement education
+    - Watch maintenance
+    - Battery-care guides
+    - Calculator guides
+    - Gift guides
+    - Wedding watch guides
+    - Smartwatch comparisons
+    - Repair education
+    - Behind-the-scenes mechanic stories
+    - Bangla educational content
+    - Social media video scripts
+    - Facebook posts
+    - Instagram captions
+    - TikTok concepts
+    - YouTube ideas
+    - Email campaigns
+    - WhatsApp campaigns
+    - Seasonal promotions
+
+    For every content type, define:
+    - Audience
+    - Search intent
+    - Content format
+    - Title
+    - Outline
+    - Call to action
+    - Distribution channel
+    - Conversion goal
+
+    ==================================================
+    PART X: CUSTOMER JOURNEYS
+    ==================================================
+
+    Map the complete journeys for:
+    1. Affordable watch buyer
+    2. Smartwatch buyer
+    3. Casio or branded watch buyer
+    4. Wedding gift buyer
+    5. Calculator student
+    6. Corporate buyer
+    7. Luxury watch buyer
+    8. Watch repair customer
+    9. Repeat customer
+    10. Customer who abandons checkout
+    11. Customer who wants authenticity verification
+    12. Customer outside Dhaka
+
+    For each journey, show:
+    - Entry point
+    - Questions and concerns
+    - Relevant pages
+    - Recommended products
+    - Trust requirements
+    - Checkout steps
+    - Post-purchase communication
+    - Repeat-purchase opportunity
+
+    ==================================================
+    PART XI: TECHNICAL ARCHITECTURE
+    ==================================================
+
+    After discovery, produce:
+    - Recommended stack
+    - System architecture
+    - Database schema
+    - Product schema
+    - Order schema
+    - Customer schema
+    - Repair-ticket schema
+    - Warranty schema
+    - Inventory schema
+    - Review schema
+    - Coupon schema
+    - Loyalty schema
+    - Admin roles
+    - API integrations
+    - Payment flow
+    - Courier flow
+    - Authentication flow
+    - Notification flow
+    - Analytics events
+    - SEO architecture
+    - Backup strategy
+    - Security strategy
+    - Accessibility plan
+    - Performance plan
+    - Deployment plan
+    - Maintenance plan
+
+    Do not add unnecessary complexity. Recommend the simplest architecture that supports the actual launch requirements.
+
+    ==================================================
+    PART XII: IMPLEMENTATION PLAN
+    ==================================================
+
+    Divide development into phases:
+
+    PHASE 0: Discovery and validation
+    PHASE 1: Brand identity and content preparation
+    PHASE 2: MVP ecommerce storefront
+    PHASE 3: Payments, delivery, inventory, and admin
+    PHASE 4: Repair booking and tracking
+    PHASE 5: Marketing automation and loyalty
+    PHASE 6: Advanced personalization
+    PHASE 7: Creative experiments and private-label CROWN CALCULATORS
+
+    For each phase, provide:
+    - Objectives
+    - Deliverables
+    - Dependencies
+    - Risks
+    - Acceptance criteria
+    - Testing requirements
+    - What should not be built yet
+
+    ==================================================
+    PART XIII: REQUIRED OUTPUT FORMAT
+    ==================================================
+
+    Your final response must be structured as:
+
+    1. Executive summary
+    2. Business assumptions
+    3. Unanswered discovery questions
+    4. Recommended business model
+    5. Brand strategy
+    6. Customer segmentation
+    7. Product architecture
+    8. Website sitemap
+    9. Page-by-page content plan
+    10. Essential launch requirements
+    11. Helpful second-phase improvements
+    12. Highly creative differentiating ideas
+    13. Bangladesh localization plan
+    14. Repair-service system
+    15. Payment and delivery plan
+    16. Responsible personalization plan
+    17. Marketing and social-media plan
+    18. SEO plan
+    19. Technical architecture
+    20. Database and admin design
+    21. Security and privacy plan
+    22. Accessibility and performance plan
+    23. Implementation roadmap
+    24. Budget and operational assumptions
+    25. Risks and mitigation
+    26. Final recommended MVP scope
+    27. Final build specification
+    28. Acceptance checklist
+    29. Questions requiring owner approval
+
+    After the planning stage is approved, create the website in small, testable increments.
+
+    Before writing code:
+    - Explain the chosen stack
+    - Explain the folder structure
+    - Explain the database model
+    - Explain the design system
+    - Explain the MVP boundary
+    - Identify all required environment variables
+    - Identify all third-party accounts needed
+    - Identify all content that must be supplied by CROWN WATCH CO.
+
+    When coding:
+    - Use reusable components
+    - Use realistic Crown Watch content
+    - Do not use generic lorem ipsum
+    - Do not invent business claims
+    - Include loading, empty, error, success, disabled, focus, and mobile states
+    - Make every important interaction functional
+    - Use accessible labels
+    - Make the site mobile-first
+    - Optimize for slow networks
+    - Test at 320px, 375px, 768px, 1024px, 1440px, and ultrawide screens
+    - Test Bangla and English content
+    - Test checkout, search, filters, forms, product variations, repair booking, and order tracking
+    - Run linting, type checking, tests, and production builds
+    - Fix all errors before declaring completion
+
+    Your goal is not to create a generic watch store. Your goal is to create a trusted Bangladesh-focused ecommerce ecosystem combining:
+    - 50 years of heritage
+    - Affordable and branded watches
+    - Smartwatches
+    - Calculators
+    - Professional watch repair
+    - Authenticity and after-sales support
+    - Repeat-customer loyalty
+    - Bangla and English accessibility
+    - A modern, trustworthy, high-converting customer experience
+
+    Start by asking the discovery questions in batches of no more than 10 questions at a time. Wait for answers before making irreversible assumptions.

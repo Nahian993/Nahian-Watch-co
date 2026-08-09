@@ -1,0 +1,114 @@
+
+> crown-watch-co@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 10348, using available port 3001 instead.
+   ▲ Next.js 15.5.23
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.0.104:3001
+
+ ✓ Starting...
+ ⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\Nahian\Downloads\crown_watch_co\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\Nahian\Downloads\crown_watch_co\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+ ✓ Ready in 8.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 9.5s (742 modules)
+ GET / 200 in 10256ms
+ ✓ Compiled in 873ms (298 modules)
+ ○ Compiling /shop ...
+ ✓ Compiled /shop in 1171ms (729 modules)
+ GET /shop 200 in 1555ms
+ ✓ Compiled /shop/[slug] in 318ms (740 modules)
+ GET /shop/casio-g-shock-casioak-all-black-ga-2100-1a1 200 in 1284ms
+ GET / 200 in 260ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 648ms (744 modules)
+ GET /images/products/fx991cw.jpg 404 in 1374ms
+ GET /images/products/citizen-bm7100.jpg 404 in 1366ms
+ GET /images/products/crown-couple-gold.jpg 404 in 1370ms
+ GET /images/products/casioak-1.jpg 404 in 1373ms
+ ○ Compiling /repair ...
+ ✓ Compiled /repair in 696ms (751 modules)
+ GET /repair 200 in 857ms
+ ○ Compiling /repair/calculator ...
+ ✓ Compiled /repair/calculator in 653ms (758 modules)
+ GET /repair/calculator 200 in 796ms
+ ○ Compiling /repair/book ...
+ ✓ Compiled /repair/book in 763ms (765 modules)
+ GET /repair/book?service=battery 200 in 933ms
+ GET / 200 in 65ms
+ GET /images/products/fx991cw.jpg 404 in 381ms
+ GET /images/products/crown-couple-gold.jpg 404 in 372ms
+ GET /images/products/citizen-bm7100.jpg 404 in 587ms
+ GET /images/products/casioak-1.jpg 404 in 586ms
+ ✓ Compiled in 1146ms (744 modules)
+ ✓ Compiled in 780ms (744 modules)
+ ✓ Compiled in 283ms (317 modules)
+ ✓ Compiled in 313ms (317 modules)
+ ✓ Compiled in 223ms (317 modules)
+ ✓ Compiled in 434ms (744 modules)
+ ✓ Compiled in 456ms (317 modules)
+ ✓ Compiled in 302ms (317 modules)
+ ✓ Compiled in 374ms (317 modules)
+ ✓ Compiled in 323ms (317 modules)
+ ✓ Compiled in 271ms (317 modules)
+ ✓ Compiled in 569ms (744 modules)
+ ✓ Compiled in 673ms (762 modules)
+ ✓ Compiled in 517ms (762 modules)
+ ✓ Compiled in 351ms (319 modules)
+ ✓ Compiled in 551ms (762 modules)
+ ✓ Compiled in 691ms (762 modules)
+ ✓ Compiled in 382ms (319 modules)
+ ✓ Compiled in 314ms (319 modules)
+ ✓ Compiled in 846ms (762 modules)
+ ✓ Compiled in 588ms (762 modules)
+ ✓ Compiled in 770ms (762 modules)
+ ✓ Compiled in 573ms (762 modules)
+ ✓ Compiled in 839ms (762 modules)
+ ✓ Compiled in 657ms (762 modules)
+ ✓ Compiled in 435ms (319 modules)
+ ✓ Compiled in 236ms (319 modules)
+ ✓ Compiled in 350ms (319 modules)
+ ✓ Compiled in 1189ms (762 modules)
+ ⚠ ./src/app/not-found.tsx
+Attempted import error: 'Blog' is not exported from '__barrel_optimize__?names=Blog,Home,Mail,RotateCw,ShoppingBag,Users!=!lucide-react' (imported as 'Blog').
+
+Import trace for requested module:
+./src/app/not-found.tsx
+
+./src/app/not-found.tsx
+Attempted import error: 'Blog' is not exported from '__barrel_optimize__?names=Blog,Home,Mail,RotateCw,ShoppingBag,Users!=!lucide-react' (imported as 'Blog').
+
+Import trace for requested module:
+./src/app/not-found.tsx
+ ⚠ ./src/app/not-found.tsx
+Attempted import error: 'Blog' is not exported from '__barrel_optimize__?names=Blog,Home,Mail,RotateCw,ShoppingBag,Users!=!lucide-react' (imported as 'Blog').
+
+Import trace for requested module:
+./src/app/not-found.tsx
+
+./src/app/not-found.tsx
+Attempted import error: 'Blog' is not exported from '__barrel_optimize__?names=Blog,Home,Mail,RotateCw,ShoppingBag,Users!=!lucide-react' (imported as 'Blog').
+
+Import trace for requested module:
+./src/app/not-found.tsx
+ ✓ Compiled in 652ms (760 modules)
+ ✓ Compiled in 459ms (762 modules)
+ ✓ Compiled in 513ms (748 modules)
+ ✓ Compiled in 269ms (319 modules)
+ ✓ Compiled in 185ms (319 modules)
+ ✓ Compiled in 135ms (319 modules)
+ ✓ Compiled in 229ms (748 modules)
+ ✓ Compiled in 138ms (319 modules)
+ ✓ Compiled in 236ms (748 modules)
+ ✓ Compiled in 228ms (319 modules)
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.5.23
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.0.104:3001
+
+ ✓ Starting...
+ ⚠ Attempted to load @next/swc-win32-x64-msvc, but an error occurred: \\?\C:\Users\Nahian\Downloads\crown_watch_co\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node is not a valid Win32 application.
+\\?\C:\Users\Nahian\Downloads\crown_watch_co\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node
+ ✓ Ready in 7.6s
+^C^C
