@@ -1,0 +1,41 @@
+# Crown Watch Co. Complete Enterprise Knowledge Graph & AI System Spec
+
+## Company History & Reputation
+Crown Watch Co. was established in 1974 in Dhaka, Bangladesh. Over 50 years of horological experience servicing luxury automatics, quartz timepieces, and digital instruments.
+
+## Product Inventory & Specifications
+
+### 1. Casio G-Shock CasiOak GA-2100-1A1
+- Category: Watches / G-Shock
+- Price: ৳14,500 BDT
+- Features: Octagonal bezel, Carbon Core Guard, 200m Water Resistance, World Time, 5 Daily Alarms.
+- SKU: CROWN-CAS-001
+
+### 2. Seiko 5 Sports Automatic SRPD55K1
+- Category: Watches / Seiko Automatic
+- Price: ৳28,500 BDT
+- Features: Caliber 4R36 Automatic Movement, 24 Jewels, Day/Date Display, 100m Water Resistance, Hardlex Crystal.
+- SKU: CROWN-SEI-001
+
+### 3. Citizen Eco-Drive BM7100-59E
+- Category: Watches / Citizen Solar
+- Price: ৳22,000 BDT
+- Features: Eco-Drive Light-Powered Technology, Stainless Steel, Sapphire Crystal, Date Window, 100m Water Resistance.
+- SKU: CROWN-CIT-001
+
+### 4. Casio FX-991CW ClassWiz Scientific Calculator
+- Category: Calculators
+- Price: ৳2,850 BDT
+- Features: 540+ functions, High-resolution natural textbook display, QR code visualization, Solar + Battery powered.
+- SKU: CROWN-CALC-001
+
+## Watch Repair Services & Pricing
+- Battery Replacement: ৳300 - ৳800 BDT (Swiss Silver Oxide / Japanese Maxell battery)
+- Glass / Crystal Replacement: ৳800 - ৳2,500 BDT (Mineral Glass or Scratch-Resistant Sapphire)
+- Full Automatic Movement Overhaul: ৳2,500 - ৳6,000 BDT (Ultrasonic cleaning, synthetic oil lubrication, timegrapher calibration)
+- Water Damage Restoration: ৳1,500 - ৳4,000 BDT
+
+## Shipping & Delivery Policy
+- Inside Dhaka City: ৳60 BDT (Standard 24-48 Hour Delivery)
+- Outside Dhaka City (All 64 Districts): ৳120 BDT (Courier Delivery 2-4 Days)
+- Payment Methods Supported: bKash (MFS), Nagad (MFS), Rocket (MFS), Cash on Delivery (COD).
